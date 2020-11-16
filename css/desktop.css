@@ -1,0 +1,190 @@
+@font-face {
+  font-family: ledLight;
+  src: url(../fonts/LEDLIGHT.otf);
+
+  font-family: myTupi;
+  src: url(../fonts/myTupi.ttf);
+
+  font-family: adLib;
+  src: url(../fonts/Adlibitum_Light_TRIAL.ttf);
+}
+
+html{
+
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color:#FAA5DD;
+}
+
+  nav{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 3px #9287E4;
+    padding: 0px;
+    width: 50vw;
+  }
+
+  nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #81E3B2;
+    display: flex !important;
+    flex-direction: row;
+  /* flexbox for parent */
+  }
+
+  nav ul li{
+    border:solid 1px #82CAFA;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 10vw;
+  }
+
+  nav ul li:hover{
+  background-color: #AA91EB
+  }
+
+  nav ul li a{
+    font-family: adLib;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+
+
+#banner{
+  background: white;
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100vw;
+
+}
+
+  #banner h1 {
+    font-family: ledLight;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: ledLight;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+
+  #mainArea{
+    margin: 10vw;
+  }
+
+  .soundcloud{
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;
+    : none;
+  }
+
+  .soundcloud a{
+    color: #cccccc;
+    text-decoration: none;
+  }
+
+  #mainArea p {
+    line-height: 1.2em;
+    text-align: justify;
+    font-family: myTupi;
+    font-size: 1.4em;
+  }
+
+  #mainArea section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5vw;
+  }
+
+  #mainArea img, iframe
+  {
+    margin: 40px;
+    width: auto;
+    height: 250px;
+
+  }
+
+
+  #logoArt{
+    text-align: center;
+  }
+
+  #logoArt img{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 80px;
+    height: 80px;
+  }
+
+  #socialMedia{
+    text-align: center;
+    }
+
+  #socialMedia p{
+    font-family: adLib;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 3px;
+    border:solid 3px #82CAFA;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #81E3B2;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  #socialLinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13vw;
+    height: 5vw;
+    justify-content: space-between;
+  }
+
+  #socialLinks div{
+    height: 100%;
+    width: 5vw;
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+  #footer{
+      min-height: 20vh;
+      padding: 10vw;
+      margin: 0;
+    }
+
+  #wrap{
+    min-height: 80vh;
+    margin: 0;
+    padding: 0;
+  }
