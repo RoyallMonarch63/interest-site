@@ -161,6 +161,7 @@ body{
   #socialMedia{
     text-align: center;
     margin-bottom: 10px;
+    max-width: calc(100vw - 120px);
     }
 
   #socialMedia p{
