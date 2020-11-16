@@ -1,12 +1,12 @@
 @font-face {
   font-family: ledLight;
-  src: url(../fonts/LEDLIGHT.otf);
+  src: url(./fonts/LEDLIGHT.otf);
 
   font-family: myTupi;
-  src: url(../fonts/myTupi.ttf);
+  src: url(./fonts/myTupi.ttf);
 
   font-family: adLib;
-  src: url(../fonts/Adlibitum_Light_TRIAL.ttf);
+  src: url(./fonts/Adlibitum_Light_TRIAL.ttf);
 }
 
 html{
@@ -26,6 +26,20 @@ body{
     border:solid 3px #9287E4;
     padding: 0px;
     width: 50vw;
+  }
+
+  nav a{
+      text-decoration: none;
+      cursor: pointer;
+      color: black;
+    }
+
+  nav a:hover{
+    color: pink;
+  }
+
+  nav a:active{
+    color: blue;
   }
 
   nav ul{
@@ -120,12 +134,18 @@ body{
     margin: 5vw;
   }
 
-  #mainArea img, iframe
+  #mainArea img
   {
     margin: 40px;
     width: auto;
-    height: 250px;
+    height: 450px;
+  }
 
+  #mainArea iframe
+  {
+    margin: 40px;
+    width: 450px;
+    height: 450px;
   }
 
 
