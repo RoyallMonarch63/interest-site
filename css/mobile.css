@@ -6,7 +6,7 @@
   src: url(../fonts/Computerfont.ttf);
 
   font-family: myTupi;
-  src: url(../fonts/myTupi.ttf);
+  src: url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,400&display=swap");
 
   font-family: adLib;
   src: url(../fonts/Adlibitum_Light_TRIAL.ttf);
