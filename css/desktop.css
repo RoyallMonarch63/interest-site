@@ -1,12 +1,12 @@
 @font-face {
   font-family: ledLight;
-  src: url(./fonts/LEDLIGHT.otf);
+  src: url(../fonts/LEDLIGHT.otf);
 
   font-family: myTupi;
-  src: url(./fonts/myTupi.ttf);
+  src: url(../fonts/myTupi.ttf);
 
   font-family: adLib;
-  src: url(./fonts/Adlibitum_Light_TRIAL.ttf);
+  src: url(../fonts/Adlibitum_Light_TRIAL.ttf);
 }
 
 html{

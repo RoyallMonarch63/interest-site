@@ -1,12 +1,15 @@
 @font-face {
   font-family: ledLight;
-  src: url(./fonts/LEDLIGHT.otf);
+  src: url(../fonts/LEDLIGHT.otf);
+
+  font-family: computerFont;
+  src: url(../fonts/Computerfont.ttf);
 
   font-family: myTupi;
-  src: url(./fonts/myTupi.ttf);
+  src: url(../fonts/myTupi.ttf);
 
   font-family: adLib;
-  src: url(./fonts/Adlibitum_Light_TRIAL.ttf);
+  src: url(../fonts/Adlibitum_Light_TRIAL.ttf);
 }
 
 html{
@@ -82,7 +85,7 @@ body{
 }
 
   #banner h1 {
-    font-family: ledLight;
+    font-family: computerFont;
     letter-spacing: 6px;
     text-align: center;
     padding-top: 20px;
@@ -91,7 +94,7 @@ body{
   }
 
   h2 {
-    font-family: ledLight;
+    font-family: computerFont;
     letter-spacing: 6px;
     text-align: center;
     padding-top: 20px;
