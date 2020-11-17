@@ -41,6 +41,7 @@ body{
   nav a:active{
     color: blue;
   }
+
   nav ul{
     list-style: none;
     padding: 0px;
@@ -124,19 +125,31 @@ body{
     text-align: justify;
     font-family: myTupi;
     font-size: 1em;
+    max-width: 450;
   }
 
   #mainArea section{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5vw;
+
   }
 
   #mainArea img, iframe
   {
     margin: 40px;
-    width: auto;
-    height: 250px;
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+  }
+
+  #memes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   #logoArt{
@@ -155,6 +168,7 @@ body{
 
   #socialMedia{
     text-align: center;
+    padding-bottom: 20px;
     }
 
   #socialMedia p{

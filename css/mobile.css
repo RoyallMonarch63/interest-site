@@ -2,11 +2,8 @@
   font-family: ledLight;
   src: url(../fonts/LEDLIGHT.otf);
 
-  font-family: computerFont;
-  src: url(../fonts/Computerfont.ttf);
-
   font-family: myTupi;
-  src: url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,400&display=swap");
+  src: url(../fonts/myTupi.ttf);
 
   font-family: adLib;
   src: url(../fonts/Adlibitum_Light_TRIAL.ttf);
@@ -85,7 +82,7 @@ body{
 }
 
   #banner h1 {
-    font-family: computerFont;
+    font-family: ledLight;
     letter-spacing: 6px;
     text-align: center;
     padding-top: 20px;
@@ -94,7 +91,7 @@ body{
   }
 
   h2 {
-    font-family: computerFont;
+    font-family: ledLight;
     letter-spacing: 6px;
     text-align: center;
     padding-top: 20px;
@@ -128,20 +125,29 @@ body{
     text-align: justify;
     font-family: myTupi;
     font-size: 0.7em;
+
   }
 
   #mainArea section{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5vw;
   }
 
   #mainArea img, iframe
   {
     margin: 20px;
-    width: auto;
-    height: 150px;
+    width:100%;
+    height: auto;
     max-width: calc(100vw - 120px);
+  }
+
+  #memes{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
   }
 
   #logoArt{
@@ -160,8 +166,8 @@ body{
 
   #socialMedia{
     text-align: center;
-    margin-bottom: 10px;
-    max-width: calc(100vw - 120px);
+    padding-bottom: 20px;
+
     }
 
   #socialMedia p{
@@ -174,8 +180,8 @@ body{
     padding-top: 10px;
     padding-bottom: 5px;
     background-color: #81E3B2;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   #socialLinks{
